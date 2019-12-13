@@ -33,7 +33,7 @@ document.getElementById("button").addEventListener("click", () => {
         ${digits[2] !== "0" ? ones[parseInt(digits[2])] : ""}`;
   }
 
-  /** numbers greater than 1000 and less than 2000 */
+  /** numbers greater than 1000*/
   if (value.length === 4 && parseInt(value) >= 1000) {
     output.innerHTML =
       //checking if all digits except the first are all zero 
